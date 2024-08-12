@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シフト希望収集サイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>シフト希望を入力してください</h1>
+    <form id="shiftForm">
+        <label for="employeeName">従業員名:</label>
+        <input type="text" id="employeeName" name="employeeName" required>
+
+        <label for="maxDays">希望出勤上限日数:</label>
+        <input type="number" id="maxDays" name="maxDays" min="1" max="31" required>
+
+        <div id="dateSelectors">
+            <!-- JavaScriptで日付ごとの入力フィールドを挿入 -->
+        </div>
+
+        <button type="submit">送信</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

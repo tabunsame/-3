@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* 水色の背景 */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://example.com/path-to-your-cute-otter-image.jpg'); /* カワウソのイラストの背景画像URL */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #ff69b4; /* ピンク色でかわいく */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8); /* 半透明の白い背景で内容が読みやすく */
+    padding: 20px;
+    border-radius: 15px; /* 角を丸く */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* やわらかい影 */
+    display: inline-block;
+    width: auto;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #5c6bc0; /* やさしい青色 */
+}
+
+input[type="text"], input[type="number"], select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #ffab91; /* 柔らかなオレンジ色の枠 */
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #ff4081; /* 鮮やかなピンク色 */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f50057; /* ホバーで少し濃いピンク色に */
+}
+
+/* 追加のスタイリングが必要な場合に備えて */
+.extra-styles {
+    /* 追加のスタイル定義 */
+}
